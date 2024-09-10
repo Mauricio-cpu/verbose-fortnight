@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Clientes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Consultores Industriales S.A</title>
+</head>
+<body background="Imágenes/fondo.jpg">
+    <div>
+        <img src="Imágenes/fondo espejo.jpg" width ="1000" height="300">
+        <br><br>
+        <hr>
+        <header>
+            <h1>Consultores Industriales S.A</h1>
+        </header>
+        <hr>
+        <br>
+        <h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html" style="color: rgb(55, 83, 245);">Inicio</a></li>
+                    <li><a href="Clientes.html"style="color: #f20000;"><strong>Clientes</strong></a></li>
+                    <li><a href="Contacto.html"style="color: rgb(55, 83, 245);">Contacto</a></li>
+                    <li><a href="Galería.html" style="color: rgb(55, 83, 245);">Galería de fotos</a></li>
+                </ul>
+            </nav>
+        </h2>
+        <br>
+        <br><br>
+        <form onsubmit="return validarFormulario()">
+            <section>
+                <article>
+                    <div>
+                        <table>
+                                <tr>
+                                    <td>Razón social</td>
+                                    <td>
+                                        <input type="text" id="razon" name="razon" maxlength="30" size="50">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Fecha de Ingreso</td>
+                                    <td>
+                                        <input type="date" id="fecha" name="fecha" maxlength="30" size="50">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Domicilio</td>
+                                <td>
+                                    <input type="text" id="domicilio" name="domicilio" maxlength="30" size="50">
+                                </td>    
+                                </tr>
+                                <tr>
+                                    <td>Estado/Provincia</td>
+                                    <td>
+                                        <input type="text" id="provincia" name="provincia" maxlength="30" size="50">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Código Postal</td>
+                                    <td>
+                                        <input type="text" id="codpostal" name="codpostal" maxlength="30" size="30">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Responsable Gerente</td>
+                                    <td>
+                                        <input type="text" id="responsable" name="responsable" maxlength="30" size="50">
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                        <td>E-mail del Gerente</td>
+                                        <td>
+                                            <input type="email" id="mail" name="mail" placeholder="ejemplo@gmail.com" maxlength="30" size="50">
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nro. de Registro Comercial</td>
+                                        <td>
+                                            <input type="text" id="registro" name="registro" maxlength="30" size="30" pattern="[0-9]{2}-[0-9]{4}" placeholder="ejemplo 02-1234">
+                                        </td>        
+                                        </tr>
+                                        <tr>
+                                            <td>Observaciones</td>
+                                        <td>
+                                            <textarea id="observaciones" name="observaciones" placeholder="Haga su Comentario" cols="49" rows="4"></textarea>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <td>
+                                        <input type="submit" id="enviar" value="Enviar">
+                                        <input type="reset" id="borrar" value="Borrar">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                </article>
+            </section>  
+        </form>
+        </div>
+
+        <script src="JS/ValidarClien.js"></script>
+    </body>
+    <br><br>
+    <hr>
+    <br>
+    <footer>
+        <h3><strong>&#169 Consultores Industriales S.A - APRENDER21 / 2024-2025 &nbsp;&nbsp;
+            <span>
+                <a href="#" class="fa-brands fa-square-facebook">&nbsp;&nbsp;</a>
+                <a href="#" class="fa-brands fa-square-twitter">&nbsp;&nbsp;</a>
+                <a href="#" class="fa-brands fa-square-whatsapp">&nbsp;&nbsp;</a>
+                <a href="#" class="fa-brands fa-square-instagram">&nbsp;&nbsp;</a>
+                <a href="#" class="fa-brands fa-square-youtube">&nbsp;&nbsp;</a>
+
+            </span> 
+        </strong></h3>
+        </footer>
+</html>

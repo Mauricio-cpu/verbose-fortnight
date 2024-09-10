@@ -1,0 +1,86 @@
+@import url(normalize.css);
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: white;
+    text-align: center;
+}
+header{
+    height: 85px;
+    width: 99%;
+    margin: 3px auto;
+}
+    h1{
+        padding-top: 15px;
+}
+img{
+        border-radius: 2em;
+}
+nav{
+        background-color: rgb(123, 110, 110);
+        width: 99%;
+        margin: 5px auto;
+        height: 80px;
+        border-radius: 2em;
+        text-align: center;
+}
+ul{
+    overflow: hidden;
+}
+li{
+    float: left;
+    list-style-type: none;
+    margin: 20px;
+    background-color: beige;
+    border-radius: 2em;
+    height: 40px;
+    width: 20%;
+    margin-left: 47px;
+    }
+section{
+    width: 98%;
+    height: 550px;
+    margin: 10px auto;
+    padding: 10px;
+    overflow: hidden;
+    text-align: left;
+    justify-content: center;
+}
+section article{
+    width: 60%;
+    float: left;    
+    border-radius: 15px;
+    margin-left: 20%;
+    background-color: rgb(96, 161, 161);
+}
+table{
+    margin: 4px;
+    padding: 4px;
+    width: 99%;
+    
+    float: center;
+    background-color: beige;
+    align-content: flex-start;
+    border-radius: 2em;
+}
+td{
+    margin: 5px;
+    padding: 7px;
+    font-size: 1.3em;
+    color: black;
+}
+hr{
+    width: 50%;
+    margin: auto;
+}
+footer{
+    height: 40px;
+    width: 95%;
+    margin: auto;
+}
+span a{
+    color: white;
+    text-decoration: none;
+}

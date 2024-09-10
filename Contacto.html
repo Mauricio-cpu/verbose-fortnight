@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Consultores Industriales S.A</title>
+</head>
+<body background="Imágenes/fondo.jpg">
+    <div>
+        <img src="Imágenes/fondo espejo.jpg" width ="1000" height="300">
+        <br><br>
+        <hr>
+            <header>
+                <h1>Consultores Industriales S.A</h1>
+            </header>
+        <hr>
+        <br>
+        <h2>
+            <nav>
+                <ul>
+                <li><a href="index.html" style="color: rgb(55, 83, 245);">Inicio</a></li>
+                <li><a href="Clientes.html" style="color: rgb(55, 83, 245);">Clientes</a></li>
+                <li><a href="Contacto.html" style="color: #f20000;"><strong>Contacto</strong></a></li>
+                <li><a href="Galería.html" style="color: rgb(55, 83, 245);">Galería de fotos</a></li>
+                </ul>
+            </nav>
+        </h2>
+        <br><br><br>
+            <p>Tenés dudas o consultas sobre nuestros servicios?</p>
+            <section>
+                <article>
+                    <div>
+                        <form onsubmit="return validarFormulario()">
+                            <table>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td>
+                                        <input type="text" id="nombre" name="nombre" maxlength="30" size="40">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Apellido</td>
+                                    <td>
+                                        <input type="text" id="apellido" name="apellido" maxlength="30" size="40">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>E-mail</td>
+                                    <td>
+                                        <input type="email" id="mail" name="mail" maxlength="30" size="40" placeholder="ejemplo@gmail.com">
+                                    </td>    
+                                </tr>
+                                <tr>
+                                    <td>Teléfono</td>
+                                    <td>
+                                        <input type="text" id="telefono" name="telefono" maxlength="30" size="40" pattern="[0-9]{8}" placeholder="8 caracteres">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Mensaje</td>
+                                    <td>
+                                        <textarea id="comentario" placeholder="Haga su Comentario" cols="39" rows="4"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <input type="submit" value="Enviar">
+                                        <input type="reset" value="Borrar">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </article>
+            </section>
+    </div>
+
+    <script src="JS/ValidarCont.js"></script>
+</body>
+<hr>
+<br>
+    <footer>
+        <h3><strong>&#169 Consultores Industriales S.A - APRENDER21 / 2024-2025 &nbsp;&nbsp;
+            <span>
+                <a href="#" class="fa-brands fa-square-facebook">&nbsp;&nbsp;</a>
+                <a href="#" class="fa-brands fa-square-twitter">&nbsp;&nbsp;</a>
+                <a href="#" class="fa-brands fa-square-whatsapp">&nbsp;&nbsp;</a>
+                <a href="#" class="fa-brands fa-square-instagram">&nbsp;&nbsp;</a>
+                <a href="#" class="fa-brands fa-square-youtube">&nbsp;&nbsp;</a>
+            </span> 
+        </strong></h3>
+    </footer>
+</html>
